@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<!-- Nutshell by Nicky Case. Copy-pasted into every page that needs it because I'm not smart. -->
+<header>
+<script src="https://cdn.jsdelivr.net/gh/ncase/nutshell@1.0.2/nutshell.js"></script>
+</header>
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+
+  {% include disqus.html %}
+</article>
