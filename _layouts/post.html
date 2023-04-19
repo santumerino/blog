@@ -11,14 +11,13 @@ layout: default
   <div class="breadcrumbs">
 {% include breadcrumbs.html %}
   </div>
+  <h1>{{ page.title }}</h1>
 <span>[
   {% for tag in page.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
-    <a href="/blog/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr> |&nbsp;</a>
+    <a href="/blog/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
   {% endfor %}
 ]</span>
-
-  <h1>{{ page.title }}</h1>
 
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
