@@ -15,13 +15,15 @@ layout: default
   <h1>{{ page.title }}</h1>
 
   <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}<br>
-    Reading time: about {% capture words %}
-{{ content | number_of_words | minus: 220 }}
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+
+{% capture words %}
+{{ page.content | number_of_words | minus: 180 }}
 {% endcapture %}
-{% unless words contains '-' %}
-{{ words | plus: 150 | divided_by: 150 | append: ' minutes' }}
-{% endunless %}
+
+  <div class="readtime">
+    Reading time: about {{ words | plus: 150 | divided_by: 150 }} minutes
   </div>
 
   <div class="entry">
