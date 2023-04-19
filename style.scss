@@ -120,6 +120,11 @@ img {
   color: $gray;
 }
 
+.breadcrumbs {
+  font-size: 0.5em;
+  color: $gray;
+}
+
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
