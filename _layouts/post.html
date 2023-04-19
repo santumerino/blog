@@ -16,7 +16,12 @@ layout: default
 
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}<br>
-    Reading time: about {% include reading-time.html %}
+    Reading time: about {% capture words %}
+{{ content | number_of_words | minus: 220 }}
+{% endcapture %}
+{% unless words contains '-' %}
+{{ words | plus: 150 | divided_by: 150 | append: ' minutes' }}
+{% endunless %}
   </div>
 
   <div class="entry">
