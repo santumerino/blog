@@ -14,11 +14,21 @@ Hello! This is the big YARG postmortem! It's a very ramble-y blog post where I j
 
 I started writing this in October of 2022, and now it's... Jesus, almost 2024? Let's just get it over with.
 
-But first, some history.
+---
+
+# BUT FIRST...
+
+If you don't know what YARG is, why not peruse its Steam or Itch.io pages? There's also a free prologue available!
+
+I have placed an extremely enticing button here that'll take you straight to them:
+
+[Extremely enticing button](http://yarg.santumerino.com/){: .btn .btn--success}
+
+Alright! Onto a bit of history.
 
 ---
 
-# SOME HISTORY
+# A BIT OF HISTORY
 
 > "When I was a child, I caught a fleeting glimpse / Out of the corner of my eye"
 > - [_Comfortably Numb_](https://youtu.be/x-xTttimcNk), from The Wall by Pink Floyd
