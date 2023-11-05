@@ -1,2 +1,2 @@
 # blog
-lil blog built on jekyll, specifically [Jekyll Now](https://github.com/barryclark/jekyll-now) 
+lil blog built on jekyll, specifically [Jekyll Now](https://github.com/barryclark/jekyll-now) with a bit of [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) and [Nutshell](https://github.com/ncase/nutshell), to taste
