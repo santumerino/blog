@@ -235,7 +235,7 @@ What's the future of YARG?
 
 Well, I'll always be around to fix bugs, obviously. And I had a really big update in the works for it that would allow for custom content to be added in (kinda like a Minecraft resource pack: custom textures, music, voice lines, levels, variables for physics/movement/features/etc., all working as if it were an independent game). That one was almost done.
 
-But, quite frankly, I am tired of working on YARG. I sent it out into the world as a sacrificial lamb, to prove my mettle as a game developer and see if I could manage a larger-scale project. And I succeeded! In my mind, it's served it's purpose.
+But, quite frankly, I am tired of working on YARG. I sent it out into the world as a sacrificial lamb, to prove my mettle as a game developer and see if I could manage a larger-scale project. And I succeeded! In my mind, it's served its purpose.
 
 However, I can see so much I want to add, and so much I want to fix. There is so much potential here that I could tap into!
 
