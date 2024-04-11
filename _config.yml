@@ -145,7 +145,7 @@ footer:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/santumerino"
     - label: "Bluesky"
-      icon: "fab fa-brands fa-bluesky"
+      icon: "fa-brands fa-bluesky"
       url: "https://bsky.app/profile/santumerino.com"
     - label: "Itch.io"
       icon: "fab fa-brands fa-itch-io"
