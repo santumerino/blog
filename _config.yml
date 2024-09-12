@@ -99,7 +99,6 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links:
-  - "https://twitter.com/santumerino"
   - "https://bsky.app/profile/santumerino.com"
   - "https://santumerino.itch.io"
 
@@ -141,9 +140,6 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/santumerino"
     - label: "Bluesky"
       icon: "fab fa-brands fa-bluesky"
       url: "https://bsky.app/profile/santumerino.com"
